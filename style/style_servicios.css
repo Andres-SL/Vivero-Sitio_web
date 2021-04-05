@@ -1,32 +1,45 @@
 body {
-
+    margin: ;
 }
 
 /*Main*/
 
+#services-container {
+    margin: 0 0.5rem;
+}
+
 #services-container h2{
     display: flex;
     justify-content: center;
-    background-color: darkgrey;
+    background-color: #F28705;
     padding: 0.5rem 10rem;
 }
 
 #main-services {
     display: flex;
     justify-content: space-between;
-    margin: 0.5rem 0.5rem;
+    margin: 0.5rem 0;
+}
+
+#main-services picture {
+    justify-self: center;
+
+}
+
+#main-services picture img{
+    width: 25rem;
 }
 
 .service {
-    background-color: darkgray;
-    padding: 1rem 2rem;
+    background-color: #87D936;
     display: grid;
+    padding: 1rem 2rem;
 }
 
 .service h3 {
     display: flex;
     justify-content: center;
-    background-color: darkgrey;
+    background-color: #87D936;
 }
 
 .service p {
@@ -37,16 +50,17 @@ body {
 .service input {
     display: flex;
     justify-content: center;
+    margin: -0.5rem 5rem;
 }
 
 #services-description {
-    margin: 0rem 0.5rem;
-    border: 1px solid black;
+    margin: 0.5rem 0.5rem;
 }
 
 #services-description h3 {
     display: flex;
     justify-content: center;
+    background-color: #F28705;
 }
 
 #services-imgs {
@@ -56,8 +70,11 @@ body {
 }
 
 .img-all-services {
-    background-color: darkgrey;
     padding: 4rem 4.5rem;
+}
+
+.img-all-services img{
+    width: 15rem;
 }
 
 #services-imgs h4 {

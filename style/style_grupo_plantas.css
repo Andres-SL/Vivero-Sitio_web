@@ -1,18 +1,24 @@
 
 /*Main*/
+
+#content-main {
+    width: 100%;
+    margin: 0 0.5rem;
+}
+
 main h3 {
     display: flex;
     justify-content: center;
-    background-color: gray;
+    background-color: #F28705;
 }
 
 #plant-group-container {
     display: flex;
-    border: 1px solid black;
+
 }
 
 .plant-group {
-    background-color: whitesmoke;
+    background-color: #87D936;
     margin: 0.5rem 0.5rem;
     padding: 0.5rem 1rem;
 }
