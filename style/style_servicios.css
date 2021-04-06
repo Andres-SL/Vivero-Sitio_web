@@ -17,13 +17,13 @@ body {
 
 #main-services {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 0.5rem 0;
 }
 
 #main-services picture {
     justify-self: center;
-
 }
 
 #main-services picture img{
@@ -44,7 +44,9 @@ body {
 
 .service p {
     display: flex;
-    justify-content: center;
+    text-align: center;
+    width: 25rem;
+    height: 5rem;
 }
 
 .service input {
@@ -61,16 +63,18 @@ body {
     display: flex;
     justify-content: center;
     background-color: #F28705;
+    padding: 0.5rem 10rem;
 }
 
 #services-imgs {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
     margin: 0.5rem 1rem;
 }
 
 .img-all-services {
-    padding: 4rem 4.5rem;
+    padding: 2rem 2.5rem;
 }
 
 .img-all-services img{

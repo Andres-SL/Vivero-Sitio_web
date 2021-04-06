@@ -1,9 +1,10 @@
 
 /*Main*/
-main h3 {
+main h2 {
     display: flex;
     justify-content: center;
-    background-color:#F28705;
+    background-color: #F28705;
+    padding: 0.5rem 10rem;
 }
 
 #content-main {
@@ -12,8 +13,22 @@ main h3 {
 }
 
 #form-contact {
-    /*display: flex;*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#form-contact p {
 
 }
 
+#form-contact input {
+    margin: 0.5rem 1rem;
+}
+
+main h3 {
+    display: flex;
+    justify-content: center;
+    background-color: #F28705;
+    padding: 0.5rem 10rem;
+}
 
