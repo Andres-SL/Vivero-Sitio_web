@@ -20,8 +20,7 @@ main h2 {
 }
 
 .plant-group {
-
-    background-color: #87D936;
+    background-color: #225436;
     margin: 0.5rem 0.5rem;
     padding: 0.5rem 1rem;
 }
@@ -35,4 +34,6 @@ main h2 {
     justify-content: center;
     margin: 0.5rem;
     margin-bottom: -0.1rem;
+    color: white;
+    font-size: x-large;
 }

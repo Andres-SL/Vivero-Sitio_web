@@ -4,10 +4,10 @@
 
 #content-main {
     width: 100%;
-    margin: 0 0.5rem;
+    margin: -0.25rem 0.5rem;
 }
 
-#main-projects h3 {
+#main-projects h2 {
     display: flex;
     justify-content: center;
     background-color: #F28705;
@@ -17,6 +17,7 @@
 #projects-description {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .project-description {
@@ -27,6 +28,6 @@
 }
 
 .project-description picture img{
-    width: 20rem;
+    width: 12rem;
     padding: 0 0.5rem;
 }
